@@ -282,8 +282,46 @@ footer{
     padding-bottom: 20px;
 }
 
+
+
 @media screen and (max-width: 500px){
     
+    .circulo{
+        width: 300px;
+        height: 300px;
+    }
+    .rectangulo{
+        width: 280px;
+        height: 80px;
+        margin-top: 60px;
+        border-radius: 5%;
+
+    }
+    .rectangulo img{
+        width: 20%;
+        height: 75%;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    aside h2{
+        margin-top: -60px;
+    }
+    aside h3{
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    aside img{
+        width: 15%;
+        height: 15%;
+    }
+    .presentacion hr{
+        height: 10%;
+    }   
+    .presentacion{
+        padding-top: 130px;
+    }
+   
+
 }
 
 @media screen and (max-width: 980px){
@@ -294,7 +332,7 @@ footer{
     }
     .presentacion{
         margin-left: -2px;
-        padding-left: 10px;
+        padding-left: 30px;
     }
     .presentacion h1{
         margin-top: 20px;
@@ -303,10 +341,10 @@ footer{
 
     aside{
         position: relative;
-        margin-right: -15px;
+        margin-right: 10px;
         padding-right: 5px;
         font-size: 10px;
-        margin-top: -30px;
+        margin-top: -40px;
         
     }
     .acerca p{
@@ -327,6 +365,10 @@ footer{
     }
 }
 @media screen and (max-width: 1440px){
+    aside{
+        position: relative;
+
+    }
     
 }
 
