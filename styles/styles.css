@@ -166,11 +166,13 @@ aside h3{
     padding-top: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
     
     
 }
 .servicios img{
     padding-top: 20px;
+   
 }
 .servicios div p{
     padding-top: 10px;  
@@ -186,12 +188,13 @@ aside h3{
     width: 200px;
     height: 300px;
     border-radius: 5%;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .barras{
     width: 60%;
     margin-left: 14em;
+    justify-content: center;
 }
 
 .barra1{
@@ -252,6 +255,7 @@ aside h3{
     height: 150px;
     border-radius: 5%;
     margin-left: 30px;
+    justify-content: center;
 }
 .contacto img{
     width: 90%;
